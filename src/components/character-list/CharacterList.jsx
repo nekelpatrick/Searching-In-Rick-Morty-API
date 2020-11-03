@@ -9,6 +9,7 @@ class CharacterList extends Component {
         {list.map((character) => {
           return (
             <Character
+              key={character.id}
               name={character.name}
               image={character.image}
               status={character.status}

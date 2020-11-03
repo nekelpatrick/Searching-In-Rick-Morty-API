@@ -1,0 +1,36 @@
+.App-filter {
+  width: 100%;
+  height: 90px;
+
+  background-color: #e4a788;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.App-filter input {
+  height: 40px;
+  width: 25%;
+  background-color: #97ce4c;
+
+  font-size: 21px;
+  text-align: center;
+  padding: 9px;
+  border-width: 5px;
+  border-radius: 13px;
+  background-color: #98ce4c;
+  border-color: #90366b;
+  border-style: outset;
+  color: #36160a;
+  font-weight: normal;
+}
+
+.filter-input {
+  width: 90%;
+  color: white;
+}
+
+.filter-input:focus {
+  outline: none;
+}
