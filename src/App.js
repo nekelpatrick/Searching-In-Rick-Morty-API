@@ -9,7 +9,6 @@ class App extends Component {
     fetch(`https://rickandmortyapi.com/api/character/`)
       .then((res) => res.json())
       .then((res) => {
-        debugger;
         console.log(res.results); // results está funcionando.
         this.setState({ characterList: res.results });
       });

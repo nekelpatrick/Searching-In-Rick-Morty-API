@@ -7,7 +7,14 @@ class CharacterList extends Component {
     return (
       <div>
         {list.map((character) => {
-          return <Character name={character.name} />;
+          return (
+            <Character
+              name={character.name}
+              image={character.image}
+              status={character.status}
+              species={character.species}
+            />
+          );
         })}
       </div>
     );
