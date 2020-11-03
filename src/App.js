@@ -1,19 +1,16 @@
 import { Component } from "react";
 import "./App.css";
 import CharacterList from "./components/character-list/CharacterList";
+
 class App extends Component {
   state = { characterList: [] };
-
-  componentWillMount() {
-    this.setState({});
-  }
 
   componentDidMount() {
     fetch(`https://rickandmortyapi.com/api/character/`)
       .then((res) => res.json())
       .then((res) => {
         debugger;
-        console.log(res.results);
+        console.log(res.results); // results está funcionando.
         this.setState({ characterList: res.results });
       });
   }
