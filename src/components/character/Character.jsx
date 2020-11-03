@@ -1,8 +1,9 @@
 import React from "react";
+import "./styles.css";
 
 const Character = ({ name, image, species, status }) => {
   return (
-    <div style={{ border: "solid 1px yellow" }}>
+    <div className="Character">
       <img src={image} alt="" />
       <div>Name: {name}</div>
       <div>Species: {species}</div>
