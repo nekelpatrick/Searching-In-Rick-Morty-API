@@ -1,5 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .Character {
   background-color: #e89ac7;
   border: solid 3px #f0e14a;
   margin: 5px;
+  font-size: 18px;
+  width: 25vw;
+  height: 42vh;
+
+  font-weight: bold;
+}
+.Character img {
+  margin: 1%;
+  border: 5px solid #97ce4c;
+  border-radius: 10px;
 }

@@ -1,15 +1,14 @@
 import { Component } from "react";
 import Character from "../character/Character";
-
+import "./styles.css";
 class CharacterList extends Component {
   render() {
     const { list } = this.props;
     return (
-      <div>
+      <div className="App-header">
         {list.map((character) => {
           return (
             <Character
-              key={character.id}
               name={character.name}
               image={character.image}
               status={character.status}

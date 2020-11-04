@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App-filter {
+  width: 100vw;
+  height: 180px;
+
+  background-color: #e4a788;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-filter form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-filter input {
+  height: 40px;
+  width: 25%;
+  background-color: #97ce4c;
+
+  font-size: 21px;
+  text-align: center;
+  padding: 9px;
+  border-width: 5px;
+  border-radius: 13px;
+  background-color: #98ce4c;
+  border-color: #90366b;
+  border-style: outset;
+  color: #36160a;
+  font-weight: normal;
+}
+
+.filter-input {
+  width: 90%;
+  color: white;
+}
+
+.filter-input:focus {
+  outline: none;
+}
+.procurar-button {
+  margin: 5px;
+
+  background-color: #44c767;
+  border-radius: 18px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 23px;
+  font-weight: bold;
+  padding: 20px 63px;
+  text-decoration: none;
+  text-shadow: -2px 1px 0px #2f6627;
+}
+.procurar-button:hover {
+  background-color: #97ce4c;
+}
+.procurar-button:active {
+  position: relative;
+  top: 1px;
+}
